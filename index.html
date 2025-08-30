@@ -3,26 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site sobre Educação para o Campo, promovendo o aprendizado rural e a inclusão no ambiente educacional.">
-    <title>Educação para o Campo</title> 
-</head> 
-sso a uma educação de qualidade e respeitando a diversidade local.</p>
-        </section>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proteção do Meio Ambiente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Proteja o Meio Ambiente</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#dicas">Dicas</a></li>
+                <li><a href="#interativo">Interativo</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <!-- Galeria de Imagens -->
-        <section class="gallery">
-            <h2>Galeria de Imagens</h2>
-            <div>
-                <img src="https://cdn.pixabay.com/photo/2021/08/28/19/13/wheat-field-6581723_640.jpg" alt="Imagem 1">
-                <img src="https://cdn.pixabay.com/photo/2019/07/23/08/48/potato-field-4357002_640.jpg" alt="Imagem 2">
-                <img src="https://cdn.pixabay.com/photo/2020/05/13/18/58/nature-5168551_640.jpg" alt="Imagem 3">
-            </div>
-        </section>
-    </div>
+    <section id="sobre">
+        <h2>Por que devemos proteger o meio ambiente?</h2>
+        <p>O meio ambiente é fundamental para a nossa sobrevivência. Ele nos fornece recursos naturais, ar puro, água e alimento. Infelizmente, estamos destruindo esses recursos através da poluição, desmatamento e mudanças climáticas.</p>
+    </section>
 
-    <!-- Rodapé -->
+    <section id="dicas">
+        <h2>Dicas para Conservação</h2>
+        <ul>
+            <li>Reduza o consumo de plástico.</li>
+            <li>Recicle materiais como vidro, papel e metal.</li>
+            <li>Plante árvores e conserve florestas.</li>
+            <li>Use menos energia elétrica e prefira fontes renováveis.</li>
+        </ul>
+    </section>
+
+    <section id="interativo">
+        <h2>Calculadora de Emissões de CO2</h2>
+        <p>Descubra quanto CO2 você emite com base no seu consumo diário.</p>
+        <label for="km">Distância percorrida por dia (em km):</label>
+        <input type="number" id="km" placeholder="Ex: 30">
+        <button onclick="calcularCO2()">Calcular CO2</button>
+        <p id="resultado"></p>
+    </section>
+
     <footer>
-        <p>&copy; 2025 Educação para o Campo. Todos os direitos reservados.</p>
+        <p>&copy; 2025 Proteção do Meio Ambiente. Todos os direitos reservados.</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
